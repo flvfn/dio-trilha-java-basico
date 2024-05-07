@@ -28,6 +28,7 @@ public class ContaTerminal {
         //Exibir mensagem conta criada
         System.out.println("Olá " + nomeCliente.concat(" ").concat(sobrenomeCliente)+ ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + 
                             ", conta " + numeroConta + " e seu saldo R$ " + saldoConta + " já está disponível para saque.");
+        scanner.close();   
 
     }
 }
